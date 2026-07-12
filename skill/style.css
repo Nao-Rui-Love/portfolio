@@ -38,3 +38,79 @@ h1{
     line-height: 1.8;
     font-size: 18px;
 }
+
+/* =========================
+   タブレット（1024px以下）
+========================= */
+@media screen and (max-width:1024px){
+
+    .flex{
+        width:95%;
+    }
+
+    h1{
+        font-size:36px;
+    }
+
+    .skill-card h2{
+        font-size:24px;
+    }
+
+    .skill-card p{
+        font-size:17px;
+    }
+
+}
+
+/* =========================
+   スマホ（768px以下）
+========================= */
+@media screen and (max-width:768px){
+
+    .flex{
+        width:95%;
+        margin:40px auto;
+    }
+
+    h1{
+        font-size:32px;
+        margin-bottom:35px;
+    }
+
+    .skill-card{
+        padding:20px;
+    }
+
+    .skill-card h2{
+        font-size:22px;
+    }
+
+    .skill-card p{
+        font-size:16px;
+        line-height:1.7;
+    }
+
+}
+
+/* =========================
+   小さいスマホ（480px以下）
+========================= */
+@media screen and (max-width:480px){
+
+    h1{
+        font-size:28px;
+    }
+
+    .skill-card{
+        padding:15px;
+    }
+
+    .skill-card h2{
+        font-size:20px;
+    }
+
+    .skill-card p{
+        font-size:15px;
+    }
+
+}

@@ -48,3 +48,45 @@ body{
 .text-box{
     line-height: 1.8;
 }
+
+@media screen and (max-width:1024px){
+
+    .flex .image{
+        width:400px;
+    }
+
+    .flex .title{
+        margin-left:100px;
+    }
+
+    .flex .text,
+    .flex .text-box{
+        margin-left:100px;
+    }
+
+}
+
+@media screen and (max-width:768px){
+
+    .flex{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .flex .image{
+        width:90%;
+    }
+
+    .flex .title{
+        margin:30px 20px;
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .flex .text,
+    .flex .text-box{
+        margin:20px;
+        text-align:center;
+    }
+
+}
